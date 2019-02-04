@@ -65,4 +65,13 @@
 	</plugin>
   </plugins>
    </build>
+	
+	<distributionManagement>
+    <repository>
+        <id>12345</id>
+        <name>Dev</name>
+        <url>http://18.217.209.105:8081/#admin/repository/repositories:gameoflife-dev</url>
+    </repository>
+</distributionManagement>
+	
 </project>
